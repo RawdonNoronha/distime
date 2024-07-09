@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navigation() {
   return (
-    <div className='h-16 bg-slate-300'>
+    <div className='h-16 z-10 bg-slate-300 fixed'>
       <div className='flex h-16'>
         <div className='flex flex-none w-2/4 items-center justify-start px-5'>
             <p className='text-3xl'>DisTime</p>
